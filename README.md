@@ -26,13 +26,19 @@ Find out the ip address of the attackers system
 ## OUTPUT:
 
 
+<img width="619" height="346" alt="image" src="https://github.com/user-attachments/assets/019de957-0276-4e5c-9ce9-5cc723bc1da8" />
+
+
 Invoke msfconsole:
 ## OUTPUT:
+
+<img width="717" height="560" alt="image" src="https://github.com/user-attachments/assets/aa79e5da-876a-4fd5-8135-7f07fa2e77cd" />
 
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
 
 
+<img width="748" height="760" alt="image" src="https://github.com/user-attachments/assets/5860e2fc-bc59-463b-a122-fed501a6f3b9" />
 
 
 Port Scanning:
@@ -40,12 +46,16 @@ Following command is executed for scanning the systems on our local area network
 msf >  nmap -sT 192.168.1810/24 -p1-1000  (Replace with appropriate IP Address)
 ## OUTPUT:
 
+<img width="932" height="415" alt="image" src="https://github.com/user-attachments/assets/5918f371-049b-4030-a590-dca1fd1d189c" />
+
+
 step4:
 use the db-nmap command to scan and save the results into Metasploit's postgresql attached database. In that way, you can use those results in the exploitation stage later.
 
 scan the targets with the command db_nmap as follows.
 msf > db_nmap 192.168.181.0/24
 ## OUTPUT:
+
 
 
 
