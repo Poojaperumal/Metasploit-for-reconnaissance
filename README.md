@@ -133,7 +133,12 @@ Then, specify the IP address of the target machine with the RHOSTS command.
 set RHOSTS <metasploitable-ip-address>
 Set BLANK_PASSWORDS to true in case there is no password set for the root account.
 set BLANK_PASSWORDS true
-##OUTPUT:
+## OUTPUT:
+
+
+<img width="743" height="492" alt="image" src="https://github.com/user-attachments/assets/8e558da3-689d-40d3-9e47-403e6baef737" />
+
+
 
 ## RESULT:
 The Metasploit framework for reconnaissance is  examined successfully
