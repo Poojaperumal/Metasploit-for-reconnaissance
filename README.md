@@ -66,6 +66,8 @@ kali > ls -l
 ## OUTPUT:
 
 
+<img width="455" height="207" alt="image" src="https://github.com/user-attachments/assets/99ba4505-4f65-466d-b18c-4e28d6e4e2de" />
+
 
 Search is a powerful command in Metasploit that you can use to find what you want to locate. 
 msf >search name:Microsoft type:exploit
@@ -131,12 +133,7 @@ Then, specify the IP address of the target machine with the RHOSTS command.
 set RHOSTS <metasploitable-ip-address>
 Set BLANK_PASSWORDS to true in case there is no password set for the root account.
 set BLANK_PASSWORDS true
-## OUTPUT:
-
-
-
-
-
+##OUTPUT:
 
 ## RESULT:
 The Metasploit framework for reconnaissance is  examined successfully
